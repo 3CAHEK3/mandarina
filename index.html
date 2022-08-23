@@ -6,8 +6,13 @@
 </title>
 <link rel="shortcut icon" href="https://fits-nn.ru/img/kakie-produkty-snizhayut-ves-u-zhencshin_5.jpg">
 <style>
+    
+    body {
+        margin: 0px;
+    }
+
     .header {
-        background: rgb(187, 228, 241);
+        background: rgb(232, 244, 248);
     }
     
     .logo {
@@ -17,7 +22,15 @@
 
     .container {
         display: flex;
-        background: rgb(187, 228, 241);
+        margin: 0px;
+    }
+    
+    .grey {
+        background: rgb(232, 244, 248);
+    }
+
+    .green {
+        background:rgb(0, 170, 0);
     }
 
     .block {
@@ -49,27 +62,111 @@
         
     }
 
+
     .block img {
-        width:100%;
+        width: 100%;
     }
+
+    .info-block {
+        width: 50%;
+        margin: 25px;
+
+        
+    }
+
+    .info-block img {
+        width: 100%;
+    }
+
+    .info-block p {
+        font-style: italic;
+        font-size: 30px;
+    }
+
+
+
+    .text {
+        background: white;
+        text-align: center;
+        color: rgb(50, 50, 50);
+        padding: 20px;
+        
+      
+    }
+
+    .info {
+        text-align: center; 
+        color: white;
+        background: rgb(0, 170, 0);
+    }
+
+    .info h1 {
+        margin-top: 0px;
+    }
+
+    .info p {
+        margin-bottom: 0px;
+    }
+
 </style>
 </head>
 <body>
 <div id="header" class="header">
     <img src="images/logo.png" class="logo">
 </div>
-<div class="container">
+<div class="container grey">
     <div class="block">
-        <h1>Orcanic food</h1>
-        <h2>свежая пища</h2>
+        <h1>Organic food</h1>
+        <h2>Cвежая пища</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rerum perferendis fuga voluptatum! Nemo eaque illum voluptatem soluta ex quibusdam perferendis veniam laudantium, impedit tempora nostrum unde sequi perspiciatis ab?</p>
         <br>
-        <a>узнать больше</a>
+        <a href="#header">узнать больше</a>
     </div> 
     <div class="block">
         <img src="images/block_woman.jpeg">
     </div>
+</div>
 
+<div class="info">
+    <h1>
+    Как Это Устроено?
+    </h1>
+    <p>
+    Органическое сельское хозяйство, которое регулируется строгими государственными стандартами, требует, чтобы продукты с маркировкой органического происхождения производились без использования токсичных и стойких пестицидов и синтетических азотных удобрений, антибиотиков и т. синтетические гормоны, генная инженерия или другие запрещенные методы, отстой сточных вод или облучение.
+    </p>
+</div>
+
+<div class="container green"> 
+    <div class="info-block text">
+        <h2>Животноводство</h2>
+        <p>
+            Систему животноводства можно в широком смысле классифицировать как традиционную, традиционную и органическую с их отличительными характеристиками.        </p>
+    </div>
+    <div class="info-block">
+        <img src="images/Ovcy-sbivayutsya-vmeste.jpg">
+    </div>
+</div>
+<div class="container green"> 
+    <div class="info-block">
+        <img src="images/Strawberry.jpg">
+    </div>
+    <div class="info-block text">
+        <h2>Земледелие</h2>
+        <p>
+Органические продукты часто содержат больше полезных питательных веществ, таких как антиоксиданты, чем их аналоги, выращенные традиционным способом, и люди с аллергией на продукты.
+</p>
+    </div>
+</div>
+<div class="container green"> 
+    <div class="info-block text">
+        <h2>Oрганическое Земледелие</h2>
+        <p>
+        Методы органического земледелия уменьшают загрязнение, экономят воду, уменьшают эрозию почвы, повышают плодородие почвы и используют меньше энергии, также лучше для птиц.
+        </p>
+    </div>
+    <div class="info-block">
+        <img src="images/pumpkin.jpg">
+    </div>
 </div>
 </body>
-</html
+</html>
